@@ -66,3 +66,4 @@ https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#set-labels-f
 
 https://docs.gitlab.com/api/merge_requests/#create-a-merge-request
 
+REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#add-labels-to-an-issue
