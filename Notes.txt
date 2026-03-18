@@ -55,7 +55,7 @@ GitLab: You can supply labels in the same API call when creating a Merge Request
 Best Practice: Automate labeling in CI/CD pipelines for consistency, especially in GitHub where labels are a separate step.
 
 ------------------------------------------------------------------------------------------------------
-References:
+Web References:
 REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels
 Can we add labels to a pull request while creation using rest API? -> https://stackoverflow.com/questions/68459601/can-we-add-labels-to-a-pull-request-while-creation-using-rest-api
 
