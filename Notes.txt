@@ -1,0 +1,55 @@
+What Are Labels?
+
+Labels are metadata tags used to categorize, prioritize, or track issues, pull requests (GitHub), and merge requests (GitLab).
+
+They help teams organize workflows (e.g., bug, feature, urgent, needs-review).
+
+Labels can be created at the repository/project level and then applied to PRs/MRs.
+
+--------------------------------------------------------------------------------------------------------
+
+GitHub: Pull Request Labels:
+
+1. Pull Requests are treated as Issues internally.
+
+2. Labels are managed via the Issues API, not the Pull Requests API.
+
+Process:
+
+1. Create Pull Request → POST /repos/{owner}/{repo}/pulls
+
+ a. This endpoint does not accept labels.
+
+2. Add Labels → POST /repos/{owner}/{repo}/issues/{issue_number}/labels
+
+ b. Since every PR is also an issue, you use the issue number of the PR to add labels.
+
+Result: Requires two API calls (creation + labeling).
+
+--------------------------------------------------------------------------------------------------------
+
+GitLab: Merge Request Labels
+
+1. Merge Requests have their own labels field.
+
+Process:
+
+1. Create Merge Request → POST /projects/:id/merge_requests
+
+ a. Supports a labels parameter (comma-separated list).
+
+ b. Example: labels=bug,urgent
+
+2. Alternatively, you can update labels later using PUT /projects/:id/merge_requests/:merge_request_iid.
+
+Result: GitLab allows labels during creation in a single API call.
+
+--------------------------------------------------------------------------------------------------------
+
+Key Takeaways
+
+GitHub: Always requires two API calls (create PR, then add labels).
+
+GitLab: You can supply labels in the same API call when creating a Merge Request.
+
+Best Practice: Automate labeling in CI/CD pipelines for consistency, especially in GitHub where labels are a separate step.
