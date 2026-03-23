@@ -10,7 +10,7 @@ To programmatically manage labels using curl, you must use the REST API for both
 
 --------------------------------------------------------------------------------------------------------
 
-GitHub: Pull Request Labels:-
+GitHub: Pull Request Labels:
 
 1. Pull Requests are treated as Issues internally.
 
