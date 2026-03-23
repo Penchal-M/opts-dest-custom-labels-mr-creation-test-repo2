@@ -72,8 +72,8 @@ Can we add labels to a pull request while creation using rest API? -> https://st
 
 https://docs.github.com/en/rest/pulls/pulls?apiVersion=2026-03-10#create-a-pull-request
 https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#set-labels-for-an-issue
-
-
+https://docs.gitlab.com/api/merge_requests/#merge-a-merge-request
+https://docs.gitlab.com/api/merge_requests/#single-merge-request-response-notes
 https://docs.gitlab.com/api/merge_requests/#create-a-merge-request
 
 REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#add-labels-to-an-issue
