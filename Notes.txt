@@ -1,4 +1,4 @@
-What Are Labels?
+What Are Labels?!
 
 Labels are metadata tags used to categorize, prioritize, or track issues, pull requests (GitHub), and merge requests (GitLab).
 
@@ -56,7 +56,7 @@ Result: GitLab allows labels during creation in a single API call.
 
 --------------------------------------------------------------------------------------------------------
 
-Key Takeaways:
+Key Takeaways:-
 
 GitHub: Always requires two API calls (create PR, then add labels).
 
@@ -64,16 +64,18 @@ GitLab: You can supply labels in the same API call when creating a Merge Request
 
 Best Practice: Automate labeling in CI/CD pipelines for consistency, especially in GitHub where labels are a separate step.
 
+Note: Use PATs. PATs are used instead of passwords for authentication with GitHub’s API or Git over HTTPS.
+
 ------------------------------------------------------------------------------------------------------
-Web References Links:
+Web References Links:-
 REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels
 Can we add labels to a pull request while creation using rest API? -> https://stackoverflow.com/questions/68459601/can-we-add-labels-to-a-pull-request-while-creation-using-rest-api
 
 
 https://docs.github.com/en/rest/pulls/pulls?apiVersion=2026-03-10#create-a-pull-request
 https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#set-labels-for-an-issue
-
-
+https://docs.gitlab.com/api/merge_requests/#merge-a-merge-request
+https://docs.gitlab.com/api/merge_requests/#single-merge-request-response-notes
 https://docs.gitlab.com/api/merge_requests/#create-a-merge-request
 
 REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#add-labels-to-an-issue
