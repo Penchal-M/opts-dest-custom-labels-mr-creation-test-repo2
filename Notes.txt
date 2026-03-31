@@ -1,4 +1,4 @@
-What Are Labels?
+What Are Labels?!
 
 Labels are metadata tags used to categorize, prioritize, or track issues, pull requests (GitHub), and merge requests (GitLab).
 
@@ -46,7 +46,7 @@ Result: GitLab allows labels during creation in a single API call.
 
 --------------------------------------------------------------------------------------------------------
 
-Key Takeaways
+Key Takeaways:-
 
 GitHub: Always requires two API calls (create PR, then add labels).
 
