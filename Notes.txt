@@ -46,7 +46,7 @@ Result: GitLab allows labels during creation in a single API call.
 
 --------------------------------------------------------------------------------------------------------
 
-Key Takeaways:-
+Key Takeaways:
 
 GitHub: Always requires two API calls (create PR, then add labels).
 
