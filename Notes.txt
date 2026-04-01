@@ -1,4 +1,4 @@
-What Are Labels?1
+What Are Labels?
 
 Labels are metadata tags used to categorize, prioritize, or track issues, pull requests (GitHub), and merge requests (GitLab).
 
