@@ -1,4 +1,4 @@
-What Are Labels?!
+What Are Labels?
 
 Labels are metadata tags used to categorize, prioritize, or track issues, pull requests (GitHub), and merge requests (GitLab).
 
@@ -67,7 +67,7 @@ Best Practice: Automate labeling in CI/CD pipelines for consistency, especially 
 Note: Use PATs. PATs are used instead of passwords for authentication with GitHub’s API or Git over HTTPS.
 
 ------------------------------------------------------------------------------------------------------
-Web References Links:
+Web References Links:-
 =====================
 
 REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels
