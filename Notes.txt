@@ -1,4 +1,4 @@
-What Are Labels?
+What Are Labels?!
 
 "Labels" are metadata tags used to categorize, prioritize, or track issues, pull requests (GitHub), and merge requests (GitLab).
 
@@ -68,11 +68,10 @@ Note: Use PATs. PATs are used instead of passwords for authentication with GitHu
 
 -----------------------------------------------------------------------------------------------------
 Web References Links:-
-====================
+-----------------------
 
 REST API endpoints for labels -> https://docs.github.com/en/rest/issues/labels
 Can we add labels to a pull request while creation using rest API? -> https://stackoverflow.com/questions/68459601/can-we-add-labels-to-a-pull-request-while-creation-using-rest-api
-
 
 https://docs.github.com/en/rest/pulls/pulls?apiVersion=2026-03-10#create-a-pull-request
 https://docs.github.com/en/rest/issues/labels?apiVersion=2026-03-10#set-labels-for-an-issue
